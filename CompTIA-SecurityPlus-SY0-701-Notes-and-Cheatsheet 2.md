@@ -1,4 +1,4 @@
-
+<div dir="rtl" align="right">
 ![[logo.png]]
 
 # CompTIA Security+ Certification Exam Objectives
@@ -96,3 +96,5 @@
 **عدم الإنكار (Non-repudiation)**: ضمان أنه لا يمكن للأطراف إنكار مشاركتهم في عملية أو فعل معين.
 
 _مثال_: التوقيع الرقمي على البريد الإلكتروني يثبت هوية المرسل.
+
+<\div>
