@@ -47,10 +47,9 @@
 |**الإجمالي**|**100%**|
 
 ---
+## 1.0 مفاهيم الأمان العامة (General Security Concepts)  
 
 ![1-image](1-image.png)
-
-## 1.0 مفاهيم الأمان العامة (General Security Concepts)  
 
 ### 1.1 مقارنة و التمييز بين أنواع مختلفه من ضوابط الأمان (Compare and contrast various types of security controls)  
 
@@ -439,11 +438,12 @@ _مثال_: شهادة Wildcard لـ `*.example.com` تحمي `mail.example.com`
 
 
 
-![2-image](2-image.png)
-
 ## 2.0 التهديدات ونقاط الضعف ووسائل التخفيف (Threats, Vulnerabilities, and Mitigations)
 
+![2-image](2-image.png)
+
 **2.1 مقارنة وتمييز الجهات الفاعلة في التهديدات الشائعة ودوافعها (Compare and contrast common threat actors and motivations)**
+
 
 
 </div>
