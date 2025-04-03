@@ -1,182 +1,102 @@
-<div dir= "rtl" align="right">
+<div dir="rtl" align="right">
 
-![[logo.png]]
-
-# CompTIA Security+ SY0-701 Notes and Cheatsheet
+**CompTIA Security+ SY0-701 Notes and Cheatsheet**
 
 **EXAM NUMBER: SY0-701**
 
-![[all.png]]
+**![][image1]**
 
----
-## عن الامتحان  
-امتحان شهادة CompTIA Security+ سيعتمد أن المتقدم الناجح يمتلك المعرفة والمهارات المطلوبة لـ:  
-• تقييم وضع الأمان في بيئة المؤسسات وتوصية وتنفيذ حلول الأمان المناسبة.  
-• مراقبة وتأمين البيئات الهجينة، بما في ذلك السحابة، والمحمول، وإنترنت الأشياء (IoT).  
-• العمل مع الوعي بالتنظيمات والسياسات المطبقة، بما في ذلك مبادئ الحوكمة والمخاطر والامتثال.  
-• تحديد وتحليل والاستجابة للأحداث والحوادث الأمنية.
+**معلومات عن الاختبار (About the Exam):**  
+اختبار CompTIA Security+ هو شهادة معترف بها دوليًا تهدف إلى تقييم مهارات ومعرفة المرشحين في مجال الأمن السيبراني. يضمن النجاح في هذا الاختبار أن المرشح قادر على:
 
-**تطوير الامتحان**  
-تنتج امتحانات CompTIA من ورش عمل الخبراء في الموضوعات ونتائج المسوحات على مستوى الصناعة بشأن المهارات والمعرفة المطلوبة للمحترفين في تكنولوجيا المعلومات.
+* تقييم مستوى الأمان في بيئة المؤسسة واقتراح وتنفيذ الحلول الأمنية المناسبة لحمايتها.  
+* مراقبة وتأمين البيئات المختلفة، والتي تشمل الخدمات السحابية (Cloud) والأجهزة المحمولة (Mobile) وإنترنت الأشياء (IoT).  
+* العمل وفقًا للوائح والسياسات الأمنية المعتمدة، بما في ذلك مبادئ الحوكمة وإدارة المخاطر والامتثال (Governance, Risk, and Compliance \- GRC).  
+* تحديد التهديدات الأمنية وتحليلها والاستجابة لها، مما يساعد في تقليل المخاطر وحماية البيانات والأنظمة من الهجمات السيبرانية.
 
-**سياسة استخدام المواد المعتمدة من CompTIA**  
-شهادة CompTIA، LLC ليست مرتبطة ولا تقر أو تدعم أو تروج لاستخدام أي محتوى تقدمه مواقع التدريب غير المعتمدة من طرف ثالث (المعروفة بـ "brain dumps"). الأفراد الذين يستخدمون هذه المواد للتحضير لأي امتحان من CompTIA سيتم إلغاء شهاداتهم وتعليقهم من إجراء الامتحانات المستقبلية وفقًا لاتفاقية المرشح من CompTIA. في محاولة للتواصل بشكل أوضح حول سياسات الامتحان الخاصة بـ CompTIA فيما يتعلق باستخدام المواد الدراسية غير المعتمدة، توجه CompTIA جميع المرشحين للشهادات إلى سياسات امتحان الشهادات من CompTIA. يُرجى مراجعة جميع السياسات الخاصة بـ CompTIA قبل بدء عملية الدراسة لأي امتحان من CompTIA. سيتعين على المرشحين الامتثال لاتفاقية المرشح من CompTIA. إذا كان لدى المرشح أي سؤال حول ما إذا كانت المواد الدراسية تعتبر غير معتمدة (المعروفة بـ "brain dumps")، يجب عليه/عليها الاتصال بـ CompTIA عبر [examsecurity@comptia.org](mailto:examsecurity@comptia.org) للتأكيد.
+**تطوير الاختبار (Exam Development):**  
+يتم تطوير اختبارات CompTIA من خلال ورش عمل متخصصة تضم خبراء في المجال، بالإضافة إلى نتائج الاستبيانات الصناعية التي تُجرى على نطاق واسع. تهدف هذه العملية إلى تحديد المهارات والمعرفة الأساسية التي يحتاجها محترفي تقنية المعلومات (IT) لضمان توافق الاختبار مع متطلبات السوق والصناعة.
 
-**يرجى الملاحظة**  
-القوائم من الأمثلة المقدمة بتنسيق النقاط ليست قوائم شاملة. قد تشمل الأمثلة الأخرى للتقنيات أو العمليات أو المهام المتعلقة بكل هدف في الامتحان، رغم أنها ليست مدرجة أو مغطاة في هذا المستند الخاص بالأهداف. تقوم CompTIA بمراجعة محتوى امتحاناتها بشكل مستمر وتحديث أسئلة الامتحانات لضمان أن الامتحانات الحالية، وأن أمن الأسئلة محمي. عند الضرورة، سننشر امتحانات محدثة بناءً على الأهداف الحالية للامتحان. يُرجى العلم أن جميع مواد التحضير ذات الصلة للامتحانات ستظل صالحة.
+**سياسة استخدام المواد المعتمدة من CompTIA:**
 
----
-**تفاصيل الامتحان**  
-الامتحان المطلوب: SY0-701  
-عدد الأسئلة: حد أقصى 90  
-أنواع الأسئلة: متعددة الاختيارات وأسئلة قائمة على الأداء  
-مدة الامتحان: 90 دقيقة  
-الخبرة الموصى بها: حد أدنى من سنتين من الخبرة في إدارة تكنولوجيا المعلومات مع التركيز على الأمان، والخبرة العملية في أمن المعلومات التقنية، والمعرفة الواسعة بمفاهيم الأمان.
+شركة CompTIA Certifications, LLC ليست تابعة ولا تصادق أو توافق على استخدام أي محتوى مقدم من مواقع تدريب غير معتمدة من جهات خارجية (المعروفة باسم "brain dumps"). الأفراد الذين يستخدمون هذه المواد للتحضير لأي اختبار من CompTIA سيتم إلغاء شهاداتهم وسيتم منعهم من إجراء اختبارات مستقبلية، وذلك وفقًا لاتفاقية [اتفاقية مرشح CompTIA](https://www.comptia.org/testing/testing-policies-procedures/test-policies/comptia-candidate-agreement).
 
----
-**أهداف الامتحان (المجالات)**  
-الجدول أدناه يوضح المجالات التي يتم قياسها في هذا الامتحان ومدى تمثيلها.
+وللتوضيح سياسات CompTIA بشأن استخدام مواد الدراسة غير المعتمدة، توجه الشركة جميع المتقدمين للاختبارات إلى مراجعة [سياسات اختبارات شهادة CompTIA](https://www.comptia.org/testing/testing-policies-procedures/test-policies). يرجى مراجعة جميع سياسات CompTIA قبل البدء في دراسة أي اختبار.
 
-|المجال|النسبة المئوية للامتحان|
-|---|---|
-|1.0 مفاهيم الأمان العامة|12%|
-|2.0 التهديدات، الثغرات، والتخفيفات|22%|
-|3.0 بنية الأمان|18%|
-|4.0 عمليات الأمان|28%|
-|5.0 إدارة برنامج الأمان والإشراف|20%|
-|**الإجمالي**|**100%**|
+سيُطلب من المتقدمين الالتزام بـ اتفاقية مرشح CompTIA. إذا كان لدى أي متقدم استفسار حول ما إذا كانت مواد الدراسة غير معتمدة (المعروفة باسم "brain dumps")، فيمكنه التواصل مع CompTIA عبر البريد الإلكتروني: [examsecurity@comptia.org](mailto:examsecurity@comptia.org).
 
----
-## 1.0 المفاهيم العامة للأمان (General Security Concepts)  
+**يرجى الملاحظة:**
 
-![[1-image.png]]
+أن القوائم التي تحتوي على الأمثلة في شكل نقاط ليست قوائم شاملة. قد تتضمن الامتحانات أمثلة أخرى من التقنيات أو العمليات أو المهام المتعلقة بكل هدف، حتى وإن لم يتم ذكرها أو تغطيتها في هذا المستند. تقوم CompTIA بمراجعة محتوى اختباراتنا بانتظام وتحديث الأسئلة لضمان أن الاختبارات محدثة وأمنة. عند الحاجة، سننشر امتحانات محدثة بناءً على الأهداف الحالية. ويُرجى العلم أن جميع مواد التحضير للامتحان ستظل صالحة.
 
-### 1.1 مقارنة بين الأنواع المختلفة من إجراءات ووسائل الأمان وفهم الفرق بينها (Compare and contrast various types of security controls).
+**تفاصيل الاختبار:**
 
-#### - الفئات (Categories):
+الامتحان المطلوب: SY0-701
 
-- **تقنية (Technical):** تتعلق باستخدام **أدوات وبرامج** لحماية الكمبيوتر والشبكات من المخاطر مثل الفيروسات والهجمات.
-    - _مثال 1:_ **جدار الحماية (Firewall):** هو برنامج يمنع الأشخاص غير المصرح لهم من الوصول إلى الإنترنت أو الشبكة الخاصة بك.
-    - _مثال 2:_ **برنامج مكافحة الفيروسات:** هو برنامج يفحص جهاز الكمبيوتر ويكتشف أي برامج ضارة (مثل الفيروسات) ويحمي الجهاز منها.
-- **إدارية (Managerial):** تتعلق بوضع **القوانين والسياسات** التي تساعد في الحفاظ على أمان المعلومات داخل المنظمة.
-    - _مثال 1:_ وضع **سياسة كلمات مرور قوية:** أي أن كل شخص يجب عليه اختيار كلمة مرور صعبة التخمين لحماية حساباته.
-    - _مثال 2:_ وضع **خطة للتعامل مع الهجمات:** أي خطة توضح ماذا يجب أن يفعل الموظفون إذا حدثت مشكلة مثل اختراق النظام.
-- **تشغيلية (Operational):** تتعلق بالإجراءات اليومية التي يتم تنفيذها لضمان حماية المعلومات.
-    - _مثال 1:_ **مراقبة الأنظمة:** تعني متابعة الأجهزة والبرامج بشكل مستمر للتأكد من أنها تعمل بشكل طبيعي ولا توجد أي مشاكل.
-    - _مثال 2:_ **النسخ الاحتياطي للبيانات:** تعني حفظ نسخة احتياطية من المعلومات بشكل دوري في مكان آخر، وذلك لاسترجاعها في حال حدوث أي خطأ.
-- **مادية (Physical):** تتعلق بحماية الأجهزة والمباني من الوصول غير المصرح به أو الأضرار المادية.
-    - _مثال 1:_ **أنظمة التحكم في الدخول:** مثل استخدام بطاقة ممغنطة للدخول إلى غرفة معينة، بحيث لا يستطيع أي شخص غير مخول دخول المكان.
-    - _مثال 2:_ **تأمين الأجهزة:** مثل وضع الخوادم والأجهزة المهمة في غرف مغلقة لضمان عدم سرقتها أو تدميرها.
+عدد الأسئلة: بحد أقصى 90
 
-#### - أنواع الضوابط الأمنية (Control Types)
+أنواع الأسئلة: الأسئلة متعددة الخيارات والأسئلة المبنية على الأداء
 
-- **وقائي (Preventive):** يهدف إلى منع حدوث الهجمات أو الحوادث الأمنية.
-	- _مثال 1:_ **استخدام كلمة مرور طويلة ومعقدة** تحتوي على حروف وأرقام ورموز، مما يجعل من الصعب على المخترقين تخمينها والدخول إلى حسابك دون إذن.
-    - _مثال 2:_ **إغلاق منافذ USB** لمنع نقل الفيروسات إلى الأجهزة.
-- **ردعي (Deterrent):** يهدف إلى تخويف أو ردع المخترقين لمنعهم من محاولة الاختراق.
-    - _مثال 1:_ **كاميرات المراقبة** تجعل الأشخاص يفكرون مرتين قبل القيام بأي تصرف غير قانوني.
-    - _مثال 2:_ **تحذيرات قانونية** على مواقع الويب تحذر من العواقب القانونية للاختراق.   
-- **كشفي (Detective):** يساعد في اكتشاف المشكلات الأمنية بعد حدوثها لتحديد مصدرها.
-    - _مثال 1:_ **أجهزة إنذار السرقة** التي تطلق صوتًا عند محاولة اقتحام المكان.
-	- _مثال 2:_ **سجلات النشاط (Log Files)** التي تحتفظ بسجل يوضح من قام بتسجيل الدخول إلى النظام، ووقت الدخول، وما هي العمليات التي قام بها، مما يساعد في اكتشاف أي نشاط غير طبيعي.
-- **تصحيحي (Corrective):** يعمل على إصلاح المشكلات بعد وقوعها لتقليل الضرر.
-    - _مثال 1:_ **إزالة الفيروسات** باستخدام برامج مكافحة الفيروسات بعد إصابة الجهاز.
-    - _مثال 2:_ **استعادة الملفات من نسخة احتياطية** بعد فقدان البيانات بسبب مشكلة أمنية.
-- **تعويضي (Compensating):** يستخدم كبديل عندما لا يمكن تنفيذ إجراء أمني معين.
-    - _مثال 1:_ **المصادقة الثنائية (2FA)** تُستخدم إذا كانت كلمات المرور وحدها غير كافية.
-    - _مثال 2:_ **توظيف حراس أمن** في حال تعطل أجهزة الدخول الذكي.
-- **إرشادي (Directive):** يوفر تعليمات واضحة للأشخاص حول كيفية الحفاظ على الأمن.
-    - _مثال 1:_ **لافتات إرشادية** توضح للموظفين كيفية التعامل مع البيانات السرية.
-    - _مثال 2:_ **دورات تدريبية حول الأمن السيبراني** لتوعية الموظفين بالمخاطر وكيفية تجنبها.
+مدة الاختبار: 90 دقيقة
 
----
-### 1.2 تلخيص المفاهيم الأساسية في الأمن السيبراني (Summarize fundamental security concepts).
+الخبرة الموصى بها: حد أدنى من سنتين من الخبرة في إدارة تكنولوجيا المعلومات مع تركيز على الأمان، وخبرة عملية في الأمان التقني للمعلومات، ومعرفة واسعة بمفاهيم الأمان.
 
-#### - السرية (Confidentiality)، السلامة (Integrity)، التوافر (Availability)، اختصاراً (CIA).
+**أهداف الامتحان (المجالات):**  
+الجدول أدناه يوضح المجالات التي يقيسها هذا الامتحان والنسبة التي تمثلها في الامتحان.
 
-- **السرية (Confidentiality):** تعني الحفاظ على خصوصية المعلومات بحيث لا يستطيع أي شخص غير مصرح له الوصول إليها أو الاطلاع عليها.
-    - _مثال 1:_ عند **إرسال رسالة عبر تطبيق مشفر** مثل واتساب، لا يمكن لأي شخص غير المرسل والمستقبل قراءتها.
-    - _مثال 2:_ عند **تسجيل الدخول إلى حساب بنكي**، يتم طلب كلمة مرور ورمز تحقق يُرسل إلى الهاتف لضمان أن المستخدم هو الشخص المخول بالدخول.
-- **السلامة (Integrity):** تعني التأكد من أن المعلومات لم يتم تغييرها أو التلاعب بها، سواء عن قصد أو عن طريق الخطأ، بحيث تظل دقيقة وموثوقة.
-    - _مثال 1:_ عند **إرسال ملف عبر البريد الإلكتروني**، يتم استخدام تقنية التوقيع الرقمي لضمان أن المستلم يتلقى الملف كما هو دون أي تعديل.
-    - _مثال 2:_ عند **تنزيل تطبيق من موقع رسمي**، يتم التحقق من تطابق "التجزئة (Hash)" لضمان أن التطبيق لم يتم التلاعب به أو تعديله من قبل جهة غير موثوقة.
-- **التوافر (Availability):** يعني ضمان أن المعلومات والأنظمة تبقى متاحة وجاهزة للاستخدام من قبل الأشخاص المصرح لهم في أي وقت دون تأخير أو تعطل.
-    - _مثال 1:_ عند **انقطاع التيار الكهربائي عن مركز بيانات**، يتم تشغيل مولدات احتياطية لضمان استمرار تشغيل الخوادم وعدم فقدان البيانات.
-    - _مثال 2:_ مواقع الإنترنت الكبيرة مثل **البنوك والمتاجر الإلكترونية** تستخدم خوادم متعددة موزعة في أماكن مختلفة لضمان استمرار الخدمة حتى في حالة تعطل أحد الخوادم.
+| المجالات | نسبة الامتحان |
+| ----- | :---: |
+| 1.0 مفاهيم الأمان العامة (General Security Concepts) | 12% |
+| 2.0 التهديدات والثغرات والتخفيف منها (Threats, Vulnerabilities, and Mitigations) | 22% |
+| 3.0 بنية الأمان (Security Architecture) | 18% |
+| 4.0 عمليات الأمان (Security Operations) | 28% |
+| 5.0 إدارة برنامج الأمان والإشراف (Security Program Management and Oversight) | 20% |
+| **الإجمالي (Total)** | **100%** |
 
-#### - عدم الإنكار (Non-Repudiation):
+**1.0 المفاهيم العامة للأمان (General Security Concepts)**
 
-- **عدم الإنكار (Non-Repudiation):** هو ضمان عدم قدرة أي شخص على إنكار قيامه بعملية معينة، مثل إرسال رسالة أو إجراء معاملة، وذلك من خلال وسائل تحقق موثوقة تثبت هويته وسجلات تحتفظ بتفاصيل العملية.
-    - _مثال 1:_ عند **إرسال بريد إلكتروني عبر منصة رسمية**، يتم تسجيل عنوان المرسل، ووقت الإرسال، والتوقيع الرقمي، مما يثبت أن هذا الشخص هو من أرسل الرسالة، ولا يمكنه إنكار ذلك لاحقًا.
-    - _مثال 2:_ عند **إتمام عملية شراء عبر الإنترنت باستخدام بطاقة ائتمان**، يتم تسجيل بيانات مثل اسم صاحب البطاقة، والمبلغ، والموقع، ووقت العملية، مما يمنع أي شخص من الادعاء بأنه لم يقم بالشراء.
+![][image2]
 
-#### - المصادقة (Authentication)، التفويض (Authorization)، المحاسبة (Accounting)، اختصاراً (AAA).
+**1.1 مقارنة بين أنواع الضوابط الأمنية المختلفة (Compare and contrast various types of security controls):**
 
-- **المصادقة (Authentication):** هي عملية التحقق من هوية المستخدم أو الجهاز قبل منحه حق الوصول.
-    - _مثال 1:_ عند **تسجيل الدخول إلى حسابك**، يُطلب منك إدخال اسم المستخدم وكلمة المرور للتأكد من هويتك.
-    - _مثال 2:_ استخدام **بصمة الإصبع أو التعرف على الوجه** لفتح الهاتف الذكي.
-- **التفويض (Authorization):** هو تحديد الصلاحيات المسموح بها للمستخدم بعد التحقق من هويته.
-    - _مثال 1:_ يمكن لموظف في شركة **الوصول إلى بيانات محددة فقط** بناءً على وظيفته، بينما المدير لديه صلاحيات أوسع.
-    - _مثال 2:_ في تطبيق مصرفي، يمكن للمستخدم **رؤية رصيده** لكنه لا يستطيع **تعديل حد الائتمان** إلا بعد موافقة البنك.
-- **المحاسبة (Accounting):** هي تتبع وتسجيل جميع الأنشطة التي يقوم بها المستخدمون على النظام لأغراض الأمان والمراقبة.
-    - _مثال 1:_ تسجيل **وقت وتاريخ تسجيل الدخول والخروج** من النظام لمعرفة من استخدمه ومتى.
-    - _مثال 2:_ في شبكة الشركات، يتم تسجيل **كل محاولات الوصول إلى الملفات الحساسة** لمراجعتها عند الحاجة.
+* **الفئات (Categories):**
 
-- **المصادقة للأشخاص (Authenticating People):** هي عملية التحقق من هوية المستخدم قبل منحه إمكانية الوصول إلى النظام أو البيانات.
-    - _مثال 1:_ عند **تسجيل الدخول إلى البريد الإلكتروني**، يُطلب منك إدخال كلمة المرور وربما رمز تحقق يُرسل إلى هاتفك.
-    - _مثال 2:_ استخدام **بطاقة الهوية الذكية** أو **بصمة الإصبع** للوصول إلى مبنى مؤمن.
-- **المصادقة للأنظمة (Authenticating Systems):** هي التحقق من هوية الأجهزة أو التطبيقات لضمان أنها موثوقة ومسموح لها بالتواصل مع الشبكة أو الأنظمة الأخرى.
-    - _مثال 1:_ عند **اتصال جهاز كمبيوتر بشبكة شركة**، يتم التحقق من شهادة الأمان الخاصة به قبل السماح له بالدخول.
-    - _مثال 2:_ عند **استخدام خدمة عبر الإنترنت**، يتحقق الموقع من أن المتصفح لديه شهادة رقمية صالحة لتأمين الاتصال.
-- **نماذج التفويض (Authorization Models):** هي طرق التحكم في الصلاحيات التي تحدد ما يمكن للمستخدمين أو الأنظمة القيام به بعد المصادقة.
-	- **1. نموذج التحكم القائم على الدور (RBAC - Role-Based Access Control):** يتم منح الصلاحيات بناءً على دور المستخدم داخل المنظمة أو المؤسسة.
-	    - _مثال 1:_ يُمنح الموظف صلاحية الوصول إلى البريد الإلكتروني بناءً على دوره كموظف في قسم معين.
-	    - _مثال 2:_ يمكن للمحاسب فقط الوصول إلى الفواتير المالية، بينما لا يمكنه تعديل بيانات الموظفين.
-	- **2. نموذج التحكم القائم على القواعد (ABAC - Attribute-Based Access Control):** يتم تحديد الوصول بناءً على مجموعة من القواعد والسمات مثل الموقع الجغرافي أو نوع الجهاز المستخدم.
-	    - _مثال 1:_ يُسمح للمستخدم بفتح مستند فقط إذا كان في موقع معين أو يستخدم جهازًا معينًا.
-	    - _مثال 2:_ يُسمح لموظف في قسم المبيعات بالوصول إلى قاعدة البيانات فقط عندما يكون في المكتب باستخدام جهاز العمل المخصص.
-	- **3. نموذج التحكم الإلزامي (MAC - Mandatory Access Control):** يتم تحديد الأذونات بواسطة السياسات الأمنية على مستوى النظام بدلاً من المستخدم.
-	    - _مثال 1:_ لا يمكن للمستخدم العادي في القطاع الحكومي الوصول إلى المستندات السرية.
-	    - _مثال 2:_ في بيئة عسكرية، لا يُسمح لموظف غير مخوّل بالدخول إلى ملفات متعلقة بالأمن الوطني.
-	- **4. نموذج التحكم التقديري (DAC - Discretionary Access Control):** يسمح لمالك المورد بتحديد من يمكنه الوصول إليه أو تعديله.
-	    - _مثال 1:_ مالك الملف في جهاز الكمبيوتر يمكنه منح إذن القراءة أو التعديل لأشخاص آخرين.
-	    - _مثال 2:_ يمكن لموظف في قسم الموارد البشرية أن يحدد من لديه إذن للوصول إلى ملفات الموظفين.
-	- **5. نموذج التحكم القائم على المصفوفة (LBAC - Label-Based Access Control):** يعتمد على تصنيف البيانات باستخدام علامات أو تصنيفات لتحديد من يمكنه الوصول إليها.
-	    - _مثال 1:_ المستندات الحساسة تكون موسومة بتصنيف سري، ويتم تحديد الوصول بناءً على هذا التصنيف.
-	    - _مثال 2:_ يتم منح الوصول فقط للأشخاص الذين لديهم تصنيف أمني خاص للوصول إلى البيانات المصنفة.
-	- **6. نموذج التحكم القائم على الوقت (Time-Based Access Control):** يسمح بالوصول إلى الموارد فقط خلال فترات زمنية معينة.
-	    - _مثال 1:_ يتم منح المستخدم الوصول إلى النظام فقط خلال ساعات العمل المحددة.
-	    - _مثال 2:_ يقتصر الوصول إلى مستودع البيانات على أوقات معينة في اليوم، مثل فترة الصباح فقط.
-	- **7. نموذج التحكم القائم على السياق (Context-Based Access Control):** يعتمد على الوصول بناءً على سياق الحالة مثل النشاط الحالي للمستخدم أو الموقع الجغرافي.
-	    - _مثال 1:_ يتم السماح للموظف بالوصول إلى البيانات فقط إذا كان في المكتب، ويُمنع الوصول في حال كان في مكان غير مصرح به.
-	    - _مثال 2:_ يُسمح للموظف بالوصول إلى المعلومات الحساسة إذا كان يعمل داخل شبكة الشركة الخاصة وليس عبر الشبكة العامة.
+  * **تقنية (Technical):** تتعلق باستخدام أدوات وبرامج لحماية الكمبيوتر والشبكات من المخاطر مثل الفيروسات والهجمات.
 
-#### - تحليل الفجوات (Gap Analysis):
+    * مثال 1: جدار الحماية (Firewall): هو برنامج يمنع الأشخاص غير المصرح لهم من الوصول إلى الإنترنت أو الشبكة الخاصة بك.
 
-- **تحليل الفجوات (Gap Analysis):** هو عملية تقييم الفارق بين الوضع الحالي والهدف المطلوب، بهدف تحديد الثغرات واتخاذ إجراءات لسدها وتحسين الأداء.
-    - _مثال 1:_ عند **تقييم أمن الشبكة في شركة**، يتم مقارنة الإجراءات الأمنية الحالية بالمعايير المطلوبة، مثل معايير **NIST**، ثم تحديد الجوانب التي تحتاج إلى تحسين.
-    - _مثال 2:_ عند **مراجعة الامتثال للسياسات التنظيمية**، يمكن تحليل الفجوات بين القوانين المطلوبة وما هو مطبق فعليًا داخل المؤسسة، مثل اكتشاف نقص في التدريب على أمن المعلومات واتخاذ إجراءات لمعالجته.
+    * مثال 2: برنامج مكافحة الفيروسات: هو برنامج يفحص جهاز الكمبيوتر ويكتشف أي برامج ضارة (مثل الفيروسات) ويحمي الجهاز منها.
 
-#### - انعدام الثقة (Zero Trust):
+  * **إدارية (Managerial):** تتعلق بوضع القوانين والسياسات التي تساعد في الحفاظ على أمان المعلومات داخل المنظمة.
 
-- **انعدام الثقة (Zero Trust):** هو نموذج أمني يعتمد على مبدأ "عدم الثقة بأي شيء افتراضيًا"، ويتطلب التحقق المستمر من الهوية والصلاحيات لكل محاولة وصول إلى الأنظمة أو البيانات، بغض النظر عن موقع المستخدم أو الجهاز.
+    * مثال 1: وضع سياسة كلمات مرور قوية: أي أن كل شخص يجب عليه اختيار كلمة مرور صعبة التخمين لحماية حساباته.
 
-- **مستوى التحكم (Control Plane):** هو الجزء المسؤول عن وضع السياسات الأمنية وتنفيذها لضمان إدارة والتحكم في الوصول إلى الأنظمة والبيانات بشكل آمن.
+    * مثال 2: وضع خطة للتعامل مع الهجمات: أي خطة توضح ماذا يجب أن يفعل الموظفون إذا حدثت مشكلة مثل اختراق النظام.
 
-- **الهوية التكيفية (Adaptive Identity):** تستخدم المصادقة متعددة العوامل (MFA) وسلوك المستخدم لتحليل وتحديد المخاطر.
-    - _مثال 1:_ عند محاولة تسجيل الدخول من جهاز غير مألوف، يتم طلب تحقق إضافي مثل رمز يتم إرساله إلى الهاتف.
-    - _مثال 2:_ يتم منح موظفي الشركة صلاحيات مختلفة بناءً على سلوكهم السابق ومستوى المخاطر المرتبط بهم.
-- **تقليل نطاق التهديدات (Threat Scope Reduction):** يهدف إلى الحد من تأثير الهجمات الإلكترونية عن طريق الحد من إمكانية انتشارها.
-    - _مثال 1:_ تقسيم الشبكة إلى مناطق منعزلة بحيث لا يتمكن المخترق من الوصول إلى جميع الأنظمة عند اختراق جزء منها.
-    - _مثال 2:_ تقييد وصول المستخدمين إلى البيانات والأنظمة التي يحتاجونها فقط، مما يقلل من المخاطر المحتملة.
-- **التحكم في الوصول القائم على السياسات (Policy-Driven Access Control):** يعتمد على قواعد محددة مسبقًا لتحديد من يمكنه الوصول إلى ماذا.
-    - _مثال 1:_ السماح فقط لموظفي قسم المالية بالوصول إلى بيانات الفواتير، بينما يُمنع بقية الموظفين من ذلك.
-    - _مثال 2:_ منع الأجهزة غير المصرح لها من الاتصال بشبكة الشركة إلا بعد اجتياز فحص الأمان.
-- **مدير السياسات (Policy Administrator):** المسؤول عن تنفيذ السياسات الأمنية ومراقبتها باستمرار.
-    - _مثال 1:_ تعطيل حسابات المستخدمين الذين لم يسجلوا الدخول لمدة 90 يومًا لمنع الاستخدام غير المصرح به.
-    - _مثال 2:_ إجبار جميع الموظفين على تغيير كلمات المرور كل 60 يومًا للحماية من الاختراقات.
-- **محرك السياسات (Policy Engine):** يقوم بتقييم طلبات الوصول بناءً على القواعد الأمنية المطبقة.
-    - _مثال 1:_ رفض وصول المستخدم إلى تطبيق معين إذا لم يكن الجهاز محدثًا بآخر التحديثات الأمنية.
-    - _مثال 2:_ السماح بالوصول إلى الشبكة فقط إذا كان المستخدم يعمل من موقع موثوق به.
+  * **تشغيلية (Operational):** تتعلق بالإجراءات اليومية التي يتم تنفيذها لضمان حماية المعلومات.
 
-</div>
+    * مثال 1: مراقبة الأنظمة: تعني متابعة الأجهزة والبرامج بشكل مستمر للتأكد من أنها تعمل بشكل طبيعي ولا توجد أي مشاكل.
+
+    * مثال 2: النسخ الاحتياطي للبيانات: تعني حفظ نسخة احتياطية من المعلومات بشكل دوري في مكان آخر، وذلك لاسترجاعها في حال حدوث أي خطأ.
+
+  * **مادية (Physical):** تتعلق بحماية الأجهزة والمباني من الوصول غير المصرح به أو الأضرار المادية.
+
+    * مثال 1: أنظمة التحكم في الدخول: مثل استخدام بطاقة ممغنطة للدخول إلى غرفة معينة، بحيث لا يستطيع أي شخص غير مخول دخول المكان.
+
+    * مثال 2: تأمين الأجهزة: مثل وضع الخوادم والأجهزة المهمة في غرف مغلقة لضمان عدم سرقتها أو تدميرها.
+
+* **أنواع الضوابط الأمنية (Control Types):**
+
+  * **وقائي (Preventive):** يهدف إلى منع حدوث الهجمات أو الحوادث الأمنية.
+
+    * مثال 1: استخدام كلمة مرور طويلة ومعقدة تحتوي على حروف وأرقام ورموز، مما يجعل من الصعب على المخترقين تخمينها والدخول إلى حسابك دون إذن.
+
+    * مثال 2: إغلاق منافذ USB لمنع نقل الفيروسات إلى الأجهزة.
+
+[image1]: <data:image/png;base64,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>
+
+[image2]: <data:image/png;base64,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>
+
+
+
+<div>
